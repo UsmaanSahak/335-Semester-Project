@@ -1,0 +1,617 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 87.76     26.14    26.14        1    26.14    29.74  UsmaanSahak::MatrixOperator<double>::multiply(UsmaanSahak::Matrix<double>&, UsmaanSahak::Matrix<double>&)
+ 10.56     29.29     3.15 2523361204     0.00     0.00  UsmaanSahak::Matrix<double>::getNumColumn()
+  1.49     29.74     0.45        4     0.11     0.11  UsmaanSahak::Matrix<double>::getNumRow()
+  0.07     29.76     0.02        1     0.02    29.79  bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>)
+  0.07     29.78     0.02        1     0.02     0.02  std::ostream& UsmaanSahak::operator<< <double>(std::ostream&, UsmaanSahak::Matrix<double>&)
+  0.05     29.79     0.02  5580000     0.00     0.00  UsmaanSahak::Matrix<double>::addElement(double, int, int)
+  0.00     29.79     0.00       21     0.00     0.00  std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::size() const
+  0.00     29.79     0.00       12     0.00     0.00  std::move_iterator<UsmaanSahak::Matrix<double>*>::base() const
+  0.00     29.79     0.00        9     0.00     0.00  __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::max_size() const
+  0.00     29.79     0.00        9     0.00     0.00  std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_get_Tp_allocator()
+  0.00     29.79     0.00        9     0.00     0.00  std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::operator[](unsigned long)
+  0.00     29.79     0.00        9     0.00     0.00  UsmaanSahak::Matrix<double> const& std::forward<UsmaanSahak::Matrix<double> const&>(std::remove_reference<UsmaanSahak::Matrix<double> const&>::type&)
+  0.00     29.79     0.00        7     0.00     0.00  std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_get_Tp_allocator() const
+  0.00     29.79     0.00        6     0.00     0.00  std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::max_size() const
+  0.00     29.79     0.00        6     0.00     0.00  std::move_iterator<UsmaanSahak::Matrix<double>*>::move_iterator(UsmaanSahak::Matrix<double>*)
+  0.00     29.79     0.00        6     0.00     0.00  std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::max_size(std::allocator<UsmaanSahak::Matrix<double> > const&)
+  0.00     29.79     0.00        6     0.00     0.00  std::move_iterator<UsmaanSahak::Matrix<double>*> std::__make_move_if_noexcept_iterator<UsmaanSahak::Matrix<double>*, std::move_iterator<UsmaanSahak::Matrix<double>*> >(UsmaanSahak::Matrix<double>*)
+  0.00     29.79     0.00        6     0.00     0.00  bool std::operator==<UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*> const&, std::move_iterator<UsmaanSahak::Matrix<double>*> const&)
+  0.00     29.79     0.00        6     0.00     0.00  bool std::operator!=<UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*> const&, std::move_iterator<UsmaanSahak::Matrix<double>*> const&)
+  0.00     29.79     0.00        6     0.00     0.00  operator new(unsigned long, void*)
+  0.00     29.79     0.00        5     0.00     0.00  void std::_Destroy_aux<true>::__destroy<UsmaanSahak::Matrix<double>*>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*)
+  0.00     29.79     0.00        5     0.00     0.00  std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_deallocate(UsmaanSahak::Matrix<double>*, unsigned long)
+  0.00     29.79     0.00        5     0.00     0.00  void std::_Destroy<UsmaanSahak::Matrix<double>*>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*)
+  0.00     29.79     0.00        5     0.00     0.00  void std::_Destroy<UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&)
+  0.00     29.79     0.00        4     0.00     0.00  std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_allocate(unsigned long)
+  0.00     29.79     0.00        3     0.00     0.00  UsmaanSahak::Matrix<double>::delMatrix()
+  0.00     29.79     0.00        3     0.00     0.00  UsmaanSahak::Matrix<double>::Matrix(int, int)
+  0.00     29.79     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::deallocate(UsmaanSahak::Matrix<double>*, unsigned long)
+  0.00     29.79     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::allocate(unsigned long, void const*)
+  0.00     29.79     0.00        3     0.00     0.00  void __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> const&)
+  0.00     29.79     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::~new_allocator()
+  0.00     29.79     0.00        3     0.00     0.00  std::move_iterator<UsmaanSahak::Matrix<double>*>::operator*() const
+  0.00     29.79     0.00        3     0.00     0.00  std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_check_len(unsigned long, char const*) const
+  0.00     29.79     0.00        3     0.00     0.00  std::allocator<UsmaanSahak::Matrix<double> >::~allocator()
+  0.00     29.79     0.00        3     0.00     0.00  std::move_iterator<UsmaanSahak::Matrix<double>*>::operator++()
+  0.00     29.79     0.00        3     0.00     0.00  std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::deallocate(std::allocator<UsmaanSahak::Matrix<double> >&, UsmaanSahak::Matrix<double>*, unsigned long)
+  0.00     29.79     0.00        3     0.00     0.00  std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::allocate(std::allocator<UsmaanSahak::Matrix<double> >&, unsigned long)
+  0.00     29.79     0.00        3     0.00     0.00  void std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> const&>(std::allocator<UsmaanSahak::Matrix<double> >&, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> const&)
+  0.00     29.79     0.00        3     0.00     0.00  UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*)
+  0.00     29.79     0.00        3     0.00     0.00  void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&)
+  0.00     29.79     0.00        3     0.00     0.00  std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::push_back(UsmaanSahak::Matrix<double> const&)
+  0.00     29.79     0.00        3     0.00     0.00  void std::_Construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>&&)
+  0.00     29.79     0.00        3     0.00     0.00  UsmaanSahak::Matrix<double>* std::__addressof<UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>&)
+  0.00     29.79     0.00        3     0.00     0.00  UsmaanSahak::Matrix<double>* std::uninitialized_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*)
+  0.00     29.79     0.00        3     0.00     0.00  UsmaanSahak::Matrix<double>* std::__uninitialized_copy_a<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&)
+  0.00     29.79     0.00        3     0.00     0.00  UsmaanSahak::Matrix<double>* std::__uninitialized_move_if_noexcept_a<UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> > >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&)
+  0.00     29.79     0.00        3     0.00     0.00  unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00     29.79     0.00        3     0.00     0.00  UsmaanSahak::Matrix<double>&& std::forward<UsmaanSahak::Matrix<double> >(std::remove_reference<UsmaanSahak::Matrix<double> >::type&)
+  0.00     29.79     0.00        2     0.00     0.00  UsmaanSahak::MatrixOperator<double>::~MatrixOperator()
+  0.00     29.79     0.00        2     0.00     0.00  UsmaanSahak::Matrix<double>::getMat()
+  0.00     29.79     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::new_allocator(__gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> > const&)
+  0.00     29.79     0.00        2     0.00     0.00  __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >::__normal_iterator(UsmaanSahak::Matrix<double> const* const&)
+  0.00     29.79     0.00        2     0.00     0.00  __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >::base() const
+  0.00     29.79     0.00        2     0.00     0.00  std::allocator<UsmaanSahak::Matrix<double> >::allocator(std::allocator<UsmaanSahak::Matrix<double> > const&)
+  0.00     29.79     0.00        2     0.00     0.00  std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::~_Vector_impl()
+  0.00     29.79     0.00        2     0.00     0.00  std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~_Vector_base()
+  0.00     29.79     0.00        2     0.00     0.00  std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~vector()
+  0.00     29.79     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN11UsmaanSahak20OperationBatchTesterC2EiPPc
+  0.00     29.79     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00     29.79     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00     29.79     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00     29.79     0.00        1     0.00     0.00  UsmaanSahak::MatrixOperator<double>::MatrixOperator(UsmaanSahak::MatrixOperator<double> const&)
+  0.00     29.79     0.00        1     0.00     0.00  UsmaanSahak::MatrixOperator<double>::MatrixOperator(int, char**)
+  0.00     29.79     0.00        1     0.00    29.79  UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**)
+  0.00     29.79     0.00        1     0.00     0.00  UsmaanSahak::Matrix<double>::equals(UsmaanSahak::Matrix<double> const&)
+  0.00     29.79     0.00        1     0.00     0.00  UsmaanSahak::Matrix<double>::Matrix(int, int, double**)
+  0.00     29.79     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::new_allocator()
+  0.00     29.79     0.00        1     0.00     0.00  __gnu_cxx::__alloc_traits<std::allocator<UsmaanSahak::Matrix<double> > >::_S_select_on_copy(std::allocator<UsmaanSahak::Matrix<double> > const&)
+  0.00     29.79     0.00        1     0.00     0.00  bool __gnu_cxx::operator!=<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > > const&, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > > const&)
+  0.00     29.79     0.00        1     0.00     0.00  std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::end() const
+  0.00     29.79     0.00        1     0.00     0.00  std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::begin() const
+  0.00     29.79     0.00        1     0.00     0.00  std::allocator<UsmaanSahak::Matrix<double> >::allocator()
+  0.00     29.79     0.00        1     0.00     0.00  std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::_Vector_impl()
+  0.00     29.79     0.00        1     0.00     0.00  std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::_Vector_impl(std::allocator<UsmaanSahak::Matrix<double> > const&)
+  0.00     29.79     0.00        1     0.00     0.00  std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_create_storage(unsigned long)
+  0.00     29.79     0.00        1     0.00     0.00  std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_base(unsigned long, std::allocator<UsmaanSahak::Matrix<double> > const&)
+  0.00     29.79     0.00        1     0.00     0.00  std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_base()
+  0.00     29.79     0.00        1     0.00     0.00  std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::select_on_container_copy_construction(std::allocator<UsmaanSahak::Matrix<double> > const&)
+  0.00     29.79     0.00        1     0.00     0.00  UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*>(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*)
+  0.00     29.79     0.00        1     0.00     0.00  std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&)
+  0.00     29.79     0.00        1     0.00     0.00  std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector()
+  0.00     29.79     0.00        1     0.00     0.00  UsmaanSahak::Matrix<double>* std::uninitialized_copy<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*>(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*)
+  0.00     29.79     0.00        1     0.00     0.00  UsmaanSahak::Matrix<double>* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&)
+  0.00     29.79     0.00        1     0.00     0.00  std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.03% of 29.79 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00   29.79                 main [1]
+                0.00   29.79       1/1           UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [3]
+-----------------------------------------------
+                0.02   29.77       1/1           UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [3]
+[2]    100.0    0.02   29.77       1         bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [2]
+               26.14    3.59       1/1           UsmaanSahak::MatrixOperator<double>::multiply(UsmaanSahak::Matrix<double>&, UsmaanSahak::Matrix<double>&) [4]
+                0.02    0.00       1/1           std::ostream& UsmaanSahak::operator<< <double>(std::ostream&, UsmaanSahak::Matrix<double>&) [7]
+                0.02    0.00 5580000/5580000     UsmaanSahak::Matrix<double>::addElement(double, int, int) [8]
+                0.00    0.00       9/9           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::operator[](unsigned long) [19]
+                0.00    0.00       5/21          std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::size() const [15]
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>::Matrix(int, int) [35]
+                0.00    0.00       3/3           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::push_back(UsmaanSahak::Matrix<double> const&) [49]
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>::delMatrix() [34]
+                0.00    0.00       1/1           std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [91]
+                0.00    0.00       1/1           UsmaanSahak::Matrix<double>::equals(UsmaanSahak::Matrix<double> const&) [72]
+-----------------------------------------------
+                0.00   29.79       1/1           main [1]
+[3]    100.0    0.00   29.79       1         UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [3]
+                0.02   29.77       1/1           bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [2]
+                0.00    0.00       2/2           UsmaanSahak::MatrixOperator<double>::~MatrixOperator() [57]
+                0.00    0.00       1/1           UsmaanSahak::MatrixOperator<double>::MatrixOperator(int, char**) [71]
+                0.00    0.00       1/1           UsmaanSahak::MatrixOperator<double>::MatrixOperator(UsmaanSahak::MatrixOperator<double> const&) [70]
+-----------------------------------------------
+               26.14    3.59       1/1           bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [2]
+[4]     99.8   26.14    3.59       1         UsmaanSahak::MatrixOperator<double>::multiply(UsmaanSahak::Matrix<double>&, UsmaanSahak::Matrix<double>&) [4]
+                3.15    0.00 2523361204/2523361204     UsmaanSahak::Matrix<double>::getNumColumn() [5]
+                0.45    0.00       4/4           UsmaanSahak::Matrix<double>::getNumRow() [6]
+                0.00    0.00       2/2           UsmaanSahak::Matrix<double>::getMat() [58]
+                0.00    0.00       1/1           UsmaanSahak::Matrix<double>::Matrix(int, int, double**) [73]
+-----------------------------------------------
+                3.15    0.00 2523361204/2523361204     UsmaanSahak::MatrixOperator<double>::multiply(UsmaanSahak::Matrix<double>&, UsmaanSahak::Matrix<double>&) [4]
+[5]     10.6    3.15    0.00 2523361204         UsmaanSahak::Matrix<double>::getNumColumn() [5]
+-----------------------------------------------
+                0.45    0.00       4/4           UsmaanSahak::MatrixOperator<double>::multiply(UsmaanSahak::Matrix<double>&, UsmaanSahak::Matrix<double>&) [4]
+[6]      1.5    0.45    0.00       4         UsmaanSahak::Matrix<double>::getNumRow() [6]
+-----------------------------------------------
+                0.02    0.00       1/1           bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [2]
+[7]      0.1    0.02    0.00       1         std::ostream& UsmaanSahak::operator<< <double>(std::ostream&, UsmaanSahak::Matrix<double>&) [7]
+-----------------------------------------------
+                0.02    0.00 5580000/5580000     bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [2]
+[8]      0.1    0.02    0.00 5580000         UsmaanSahak::Matrix<double>::addElement(double, int, int) [8]
+-----------------------------------------------
+                0.00    0.00       1/21          std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&) [87]
+                0.00    0.00       3/21          void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&) [48]
+                0.00    0.00       5/21          bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [2]
+                0.00    0.00      12/21          std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_check_len(unsigned long, char const*) const [41]
+[15]     0.0    0.00    0.00      21         std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::size() const [15]
+-----------------------------------------------
+                0.00    0.00      12/12          bool std::operator==<UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*> const&, std::move_iterator<UsmaanSahak::Matrix<double>*> const&) [26]
+[16]     0.0    0.00    0.00      12         std::move_iterator<UsmaanSahak::Matrix<double>*>::base() const [16]
+-----------------------------------------------
+                0.00    0.00       3/9           __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::allocate(unsigned long, void const*) [37]
+                0.00    0.00       6/9           std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::max_size(std::allocator<UsmaanSahak::Matrix<double> > const&) [24]
+[17]     0.0    0.00    0.00       9         __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::max_size() const [17]
+-----------------------------------------------
+                0.00    0.00       1/9           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&) [87]
+                0.00    0.00       2/9           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~vector() [65]
+                0.00    0.00       6/9           void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&) [48]
+[18]     0.0    0.00    0.00       9         std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_get_Tp_allocator() [18]
+-----------------------------------------------
+                0.00    0.00       9/9           bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [2]
+[19]     0.0    0.00    0.00       9         std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::operator[](unsigned long) [19]
+-----------------------------------------------
+                0.00    0.00       3/9           void std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> const&>(std::allocator<UsmaanSahak::Matrix<double> >&, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> const&) [46]
+                0.00    0.00       3/9           void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&) [48]
+                0.00    0.00       3/9           void __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> const&) [38]
+[20]     0.0    0.00    0.00       9         UsmaanSahak::Matrix<double> const& std::forward<UsmaanSahak::Matrix<double> const&>(std::remove_reference<UsmaanSahak::Matrix<double> const&>::type&) [20]
+-----------------------------------------------
+                0.00    0.00       1/7           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&) [87]
+                0.00    0.00       6/7           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::max_size() const [22]
+[21]     0.0    0.00    0.00       7         std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_get_Tp_allocator() const [21]
+-----------------------------------------------
+                0.00    0.00       6/6           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_check_len(unsigned long, char const*) const [41]
+[22]     0.0    0.00    0.00       6         std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::max_size() const [22]
+                0.00    0.00       6/6           std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::max_size(std::allocator<UsmaanSahak::Matrix<double> > const&) [24]
+                0.00    0.00       6/7           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_get_Tp_allocator() const [21]
+-----------------------------------------------
+                0.00    0.00       6/6           std::move_iterator<UsmaanSahak::Matrix<double>*> std::__make_move_if_noexcept_iterator<UsmaanSahak::Matrix<double>*, std::move_iterator<UsmaanSahak::Matrix<double>*> >(UsmaanSahak::Matrix<double>*) [25]
+[23]     0.0    0.00    0.00       6         std::move_iterator<UsmaanSahak::Matrix<double>*>::move_iterator(UsmaanSahak::Matrix<double>*) [23]
+-----------------------------------------------
+                0.00    0.00       6/6           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::max_size() const [22]
+[24]     0.0    0.00    0.00       6         std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::max_size(std::allocator<UsmaanSahak::Matrix<double> > const&) [24]
+                0.00    0.00       6/9           __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::max_size() const [17]
+-----------------------------------------------
+                0.00    0.00       6/6           UsmaanSahak::Matrix<double>* std::__uninitialized_move_if_noexcept_a<UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> > >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [54]
+[25]     0.0    0.00    0.00       6         std::move_iterator<UsmaanSahak::Matrix<double>*> std::__make_move_if_noexcept_iterator<UsmaanSahak::Matrix<double>*, std::move_iterator<UsmaanSahak::Matrix<double>*> >(UsmaanSahak::Matrix<double>*) [25]
+                0.00    0.00       6/6           std::move_iterator<UsmaanSahak::Matrix<double>*>::move_iterator(UsmaanSahak::Matrix<double>*) [23]
+-----------------------------------------------
+                0.00    0.00       6/6           bool std::operator!=<UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*> const&, std::move_iterator<UsmaanSahak::Matrix<double>*> const&) [27]
+[26]     0.0    0.00    0.00       6         bool std::operator==<UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*> const&, std::move_iterator<UsmaanSahak::Matrix<double>*> const&) [26]
+                0.00    0.00      12/12          std::move_iterator<UsmaanSahak::Matrix<double>*>::base() const [16]
+-----------------------------------------------
+                0.00    0.00       6/6           UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*) [47]
+[27]     0.0    0.00    0.00       6         bool std::operator!=<UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*> const&, std::move_iterator<UsmaanSahak::Matrix<double>*> const&) [27]
+                0.00    0.00       6/6           bool std::operator==<UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*> const&, std::move_iterator<UsmaanSahak::Matrix<double>*> const&) [26]
+-----------------------------------------------
+                0.00    0.00       3/6           void __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> const&) [38]
+                0.00    0.00       3/6           void std::_Construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>&&) [50]
+[28]     0.0    0.00    0.00       6         operator new(unsigned long, void*) [28]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::_Destroy<UsmaanSahak::Matrix<double>*>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*) [31]
+[29]     0.0    0.00    0.00       5         void std::_Destroy_aux<true>::__destroy<UsmaanSahak::Matrix<double>*>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*) [29]
+-----------------------------------------------
+                0.00    0.00       2/5           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~_Vector_base() [64]
+                0.00    0.00       3/5           void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&) [48]
+[30]     0.0    0.00    0.00       5         std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_deallocate(UsmaanSahak::Matrix<double>*, unsigned long) [30]
+                0.00    0.00       3/3           std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::deallocate(std::allocator<UsmaanSahak::Matrix<double> >&, UsmaanSahak::Matrix<double>*, unsigned long) [44]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::_Destroy<UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [32]
+[31]     0.0    0.00    0.00       5         void std::_Destroy<UsmaanSahak::Matrix<double>*>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*) [31]
+                0.00    0.00       5/5           void std::_Destroy_aux<true>::__destroy<UsmaanSahak::Matrix<double>*>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*) [29]
+-----------------------------------------------
+                0.00    0.00       2/5           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~vector() [65]
+                0.00    0.00       3/5           void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&) [48]
+[32]     0.0    0.00    0.00       5         void std::_Destroy<UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [32]
+                0.00    0.00       5/5           void std::_Destroy<UsmaanSahak::Matrix<double>*>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*) [31]
+-----------------------------------------------
+                0.00    0.00       1/4           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_create_storage(unsigned long) [82]
+                0.00    0.00       3/4           void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&) [48]
+[33]     0.0    0.00    0.00       4         std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_allocate(unsigned long) [33]
+                0.00    0.00       3/3           std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::allocate(std::allocator<UsmaanSahak::Matrix<double> >&, unsigned long) [45]
+-----------------------------------------------
+                0.00    0.00       3/3           bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [2]
+[34]     0.0    0.00    0.00       3         UsmaanSahak::Matrix<double>::delMatrix() [34]
+-----------------------------------------------
+                0.00    0.00       3/3           bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [2]
+[35]     0.0    0.00    0.00       3         UsmaanSahak::Matrix<double>::Matrix(int, int) [35]
+-----------------------------------------------
+                0.00    0.00       3/3           std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::deallocate(std::allocator<UsmaanSahak::Matrix<double> >&, UsmaanSahak::Matrix<double>*, unsigned long) [44]
+[36]     0.0    0.00    0.00       3         __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::deallocate(UsmaanSahak::Matrix<double>*, unsigned long) [36]
+-----------------------------------------------
+                0.00    0.00       3/3           std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::allocate(std::allocator<UsmaanSahak::Matrix<double> >&, unsigned long) [45]
+[37]     0.0    0.00    0.00       3         __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::allocate(unsigned long, void const*) [37]
+                0.00    0.00       3/9           __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::max_size() const [17]
+-----------------------------------------------
+                0.00    0.00       3/3           void std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> const&>(std::allocator<UsmaanSahak::Matrix<double> >&, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> const&) [46]
+[38]     0.0    0.00    0.00       3         void __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> const&) [38]
+                0.00    0.00       3/9           UsmaanSahak::Matrix<double> const& std::forward<UsmaanSahak::Matrix<double> const&>(std::remove_reference<UsmaanSahak::Matrix<double> const&>::type&) [20]
+                0.00    0.00       3/6           operator new(unsigned long, void*) [28]
+-----------------------------------------------
+                0.00    0.00       3/3           std::allocator<UsmaanSahak::Matrix<double> >::~allocator() [42]
+[39]     0.0    0.00    0.00       3         __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::~new_allocator() [39]
+-----------------------------------------------
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*) [47]
+[40]     0.0    0.00    0.00       3         std::move_iterator<UsmaanSahak::Matrix<double>*>::operator*() const [40]
+-----------------------------------------------
+                0.00    0.00       3/3           void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&) [48]
+[41]     0.0    0.00    0.00       3         std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_check_len(unsigned long, char const*) const [41]
+                0.00    0.00      12/21          std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::size() const [15]
+                0.00    0.00       6/6           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::max_size() const [22]
+                0.00    0.00       3/3           unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [55]
+-----------------------------------------------
+                0.00    0.00       1/3           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&) [87]
+                0.00    0.00       2/3           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::~_Vector_impl() [63]
+[42]     0.0    0.00    0.00       3         std::allocator<UsmaanSahak::Matrix<double> >::~allocator() [42]
+                0.00    0.00       3/3           __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::~new_allocator() [39]
+-----------------------------------------------
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*) [47]
+[43]     0.0    0.00    0.00       3         std::move_iterator<UsmaanSahak::Matrix<double>*>::operator++() [43]
+-----------------------------------------------
+                0.00    0.00       3/3           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_deallocate(UsmaanSahak::Matrix<double>*, unsigned long) [30]
+[44]     0.0    0.00    0.00       3         std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::deallocate(std::allocator<UsmaanSahak::Matrix<double> >&, UsmaanSahak::Matrix<double>*, unsigned long) [44]
+                0.00    0.00       3/3           __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::deallocate(UsmaanSahak::Matrix<double>*, unsigned long) [36]
+-----------------------------------------------
+                0.00    0.00       3/3           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_allocate(unsigned long) [33]
+[45]     0.0    0.00    0.00       3         std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::allocate(std::allocator<UsmaanSahak::Matrix<double> >&, unsigned long) [45]
+                0.00    0.00       3/3           __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::allocate(unsigned long, void const*) [37]
+-----------------------------------------------
+                0.00    0.00       3/3           void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&) [48]
+[46]     0.0    0.00    0.00       3         void std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> const&>(std::allocator<UsmaanSahak::Matrix<double> >&, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> const&) [46]
+                0.00    0.00       3/9           UsmaanSahak::Matrix<double> const& std::forward<UsmaanSahak::Matrix<double> const&>(std::remove_reference<UsmaanSahak::Matrix<double> const&>::type&) [20]
+                0.00    0.00       3/3           void __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> const&) [38]
+-----------------------------------------------
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>* std::uninitialized_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*) [52]
+[47]     0.0    0.00    0.00       3         UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*) [47]
+                0.00    0.00       6/6           bool std::operator!=<UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*> const&, std::move_iterator<UsmaanSahak::Matrix<double>*> const&) [27]
+                0.00    0.00       3/3           std::move_iterator<UsmaanSahak::Matrix<double>*>::operator*() const [40]
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>* std::__addressof<UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>&) [51]
+                0.00    0.00       3/3           void std::_Construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>&&) [50]
+                0.00    0.00       3/3           std::move_iterator<UsmaanSahak::Matrix<double>*>::operator++() [43]
+-----------------------------------------------
+                0.00    0.00       3/3           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::push_back(UsmaanSahak::Matrix<double> const&) [49]
+[48]     0.0    0.00    0.00       3         void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&) [48]
+                0.00    0.00       6/9           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_get_Tp_allocator() [18]
+                0.00    0.00       3/3           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_check_len(unsigned long, char const*) const [41]
+                0.00    0.00       3/4           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_allocate(unsigned long) [33]
+                0.00    0.00       3/9           UsmaanSahak::Matrix<double> const& std::forward<UsmaanSahak::Matrix<double> const&>(std::remove_reference<UsmaanSahak::Matrix<double> const&>::type&) [20]
+                0.00    0.00       3/21          std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::size() const [15]
+                0.00    0.00       3/3           void std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> const&>(std::allocator<UsmaanSahak::Matrix<double> >&, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> const&) [46]
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>* std::__uninitialized_move_if_noexcept_a<UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> > >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [54]
+                0.00    0.00       3/5           void std::_Destroy<UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [32]
+                0.00    0.00       3/5           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_deallocate(UsmaanSahak::Matrix<double>*, unsigned long) [30]
+-----------------------------------------------
+                0.00    0.00       3/3           bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [2]
+[49]     0.0    0.00    0.00       3         std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::push_back(UsmaanSahak::Matrix<double> const&) [49]
+                0.00    0.00       3/3           void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&) [48]
+-----------------------------------------------
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*) [47]
+[50]     0.0    0.00    0.00       3         void std::_Construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>&&) [50]
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>&& std::forward<UsmaanSahak::Matrix<double> >(std::remove_reference<UsmaanSahak::Matrix<double> >::type&) [56]
+                0.00    0.00       3/6           operator new(unsigned long, void*) [28]
+-----------------------------------------------
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*) [47]
+[51]     0.0    0.00    0.00       3         UsmaanSahak::Matrix<double>* std::__addressof<UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>&) [51]
+-----------------------------------------------
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>* std::__uninitialized_copy_a<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [53]
+[52]     0.0    0.00    0.00       3         UsmaanSahak::Matrix<double>* std::uninitialized_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*) [52]
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*) [47]
+-----------------------------------------------
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>* std::__uninitialized_move_if_noexcept_a<UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> > >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [54]
+[53]     0.0    0.00    0.00       3         UsmaanSahak::Matrix<double>* std::__uninitialized_copy_a<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [53]
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>* std::uninitialized_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*) [52]
+-----------------------------------------------
+                0.00    0.00       3/3           void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&) [48]
+[54]     0.0    0.00    0.00       3         UsmaanSahak::Matrix<double>* std::__uninitialized_move_if_noexcept_a<UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> > >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [54]
+                0.00    0.00       6/6           std::move_iterator<UsmaanSahak::Matrix<double>*> std::__make_move_if_noexcept_iterator<UsmaanSahak::Matrix<double>*, std::move_iterator<UsmaanSahak::Matrix<double>*> >(UsmaanSahak::Matrix<double>*) [25]
+                0.00    0.00       3/3           UsmaanSahak::Matrix<double>* std::__uninitialized_copy_a<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [53]
+-----------------------------------------------
+                0.00    0.00       3/3           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_check_len(unsigned long, char const*) const [41]
+[55]     0.0    0.00    0.00       3         unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [55]
+-----------------------------------------------
+                0.00    0.00       3/3           void std::_Construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>&&) [50]
+[56]     0.0    0.00    0.00       3         UsmaanSahak::Matrix<double>&& std::forward<UsmaanSahak::Matrix<double> >(std::remove_reference<UsmaanSahak::Matrix<double> >::type&) [56]
+-----------------------------------------------
+                0.00    0.00       2/2           UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [3]
+[57]     0.0    0.00    0.00       2         UsmaanSahak::MatrixOperator<double>::~MatrixOperator() [57]
+                0.00    0.00       2/2           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~vector() [65]
+-----------------------------------------------
+                0.00    0.00       2/2           UsmaanSahak::MatrixOperator<double>::multiply(UsmaanSahak::Matrix<double>&, UsmaanSahak::Matrix<double>&) [4]
+[58]     0.0    0.00    0.00       2         UsmaanSahak::Matrix<double>::getMat() [58]
+-----------------------------------------------
+                0.00    0.00       2/2           std::allocator<UsmaanSahak::Matrix<double> >::allocator(std::allocator<UsmaanSahak::Matrix<double> > const&) [62]
+[59]     0.0    0.00    0.00       2         __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::new_allocator(__gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> > const&) [59]
+-----------------------------------------------
+                0.00    0.00       1/2           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::begin() const [78]
+                0.00    0.00       1/2           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::end() const [77]
+[60]     0.0    0.00    0.00       2         __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >::__normal_iterator(UsmaanSahak::Matrix<double> const* const&) [60]
+-----------------------------------------------
+                0.00    0.00       2/2           bool __gnu_cxx::operator!=<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > > const&, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > > const&) [76]
+[61]     0.0    0.00    0.00       2         __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >::base() const [61]
+-----------------------------------------------
+                0.00    0.00       1/2           std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::select_on_container_copy_construction(std::allocator<UsmaanSahak::Matrix<double> > const&) [85]
+                0.00    0.00       1/2           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::_Vector_impl(std::allocator<UsmaanSahak::Matrix<double> > const&) [81]
+[62]     0.0    0.00    0.00       2         std::allocator<UsmaanSahak::Matrix<double> >::allocator(std::allocator<UsmaanSahak::Matrix<double> > const&) [62]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::new_allocator(__gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> > const&) [59]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~_Vector_base() [64]
+[63]     0.0    0.00    0.00       2         std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::~_Vector_impl() [63]
+                0.00    0.00       2/3           std::allocator<UsmaanSahak::Matrix<double> >::~allocator() [42]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~vector() [65]
+[64]     0.0    0.00    0.00       2         std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~_Vector_base() [64]
+                0.00    0.00       2/5           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_deallocate(UsmaanSahak::Matrix<double>*, unsigned long) [30]
+                0.00    0.00       2/2           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::~_Vector_impl() [63]
+-----------------------------------------------
+                0.00    0.00       2/2           UsmaanSahak::MatrixOperator<double>::~MatrixOperator() [57]
+[65]     0.0    0.00    0.00       2         std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~vector() [65]
+                0.00    0.00       2/9           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_get_Tp_allocator() [18]
+                0.00    0.00       2/5           void std::_Destroy<UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [32]
+                0.00    0.00       2/2           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~_Vector_base() [64]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [426]
+[66]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN11UsmaanSahak20OperationBatchTesterC2EiPPc [66]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [69]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [426]
+[67]     0.0    0.00    0.00       1         _GLOBAL__sub_I_main [67]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [68]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [67]
+[68]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [68]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN11UsmaanSahak20OperationBatchTesterC2EiPPc [66]
+[69]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [69]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [3]
+[70]     0.0    0.00    0.00       1         UsmaanSahak::MatrixOperator<double>::MatrixOperator(UsmaanSahak::MatrixOperator<double> const&) [70]
+                0.00    0.00       1/1           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&) [87]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [3]
+[71]     0.0    0.00    0.00       1         UsmaanSahak::MatrixOperator<double>::MatrixOperator(int, char**) [71]
+                0.00    0.00       1/1           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector() [88]
+-----------------------------------------------
+                0.00    0.00       1/1           bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [2]
+[72]     0.0    0.00    0.00       1         UsmaanSahak::Matrix<double>::equals(UsmaanSahak::Matrix<double> const&) [72]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::MatrixOperator<double>::multiply(UsmaanSahak::Matrix<double>&, UsmaanSahak::Matrix<double>&) [4]
+[73]     0.0    0.00    0.00       1         UsmaanSahak::Matrix<double>::Matrix(int, int, double**) [73]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<UsmaanSahak::Matrix<double> >::allocator() [79]
+[74]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::new_allocator() [74]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&) [87]
+[75]     0.0    0.00    0.00       1         __gnu_cxx::__alloc_traits<std::allocator<UsmaanSahak::Matrix<double> > >::_S_select_on_copy(std::allocator<UsmaanSahak::Matrix<double> > const&) [75]
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::select_on_container_copy_construction(std::allocator<UsmaanSahak::Matrix<double> > const&) [85]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*>(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*) [86]
+[76]     0.0    0.00    0.00       1         bool __gnu_cxx::operator!=<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > > const&, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > > const&) [76]
+                0.00    0.00       2/2           __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >::base() const [61]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&) [87]
+[77]     0.0    0.00    0.00       1         std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::end() const [77]
+                0.00    0.00       1/2           __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >::__normal_iterator(UsmaanSahak::Matrix<double> const* const&) [60]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&) [87]
+[78]     0.0    0.00    0.00       1         std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::begin() const [78]
+                0.00    0.00       1/2           __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >::__normal_iterator(UsmaanSahak::Matrix<double> const* const&) [60]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::_Vector_impl() [80]
+[79]     0.0    0.00    0.00       1         std::allocator<UsmaanSahak::Matrix<double> >::allocator() [79]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::new_allocator() [74]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_base() [84]
+[80]     0.0    0.00    0.00       1         std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::_Vector_impl() [80]
+                0.00    0.00       1/1           std::allocator<UsmaanSahak::Matrix<double> >::allocator() [79]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_base(unsigned long, std::allocator<UsmaanSahak::Matrix<double> > const&) [83]
+[81]     0.0    0.00    0.00       1         std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::_Vector_impl(std::allocator<UsmaanSahak::Matrix<double> > const&) [81]
+                0.00    0.00       1/2           std::allocator<UsmaanSahak::Matrix<double> >::allocator(std::allocator<UsmaanSahak::Matrix<double> > const&) [62]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_base(unsigned long, std::allocator<UsmaanSahak::Matrix<double> > const&) [83]
+[82]     0.0    0.00    0.00       1         std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_create_storage(unsigned long) [82]
+                0.00    0.00       1/4           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_allocate(unsigned long) [33]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&) [87]
+[83]     0.0    0.00    0.00       1         std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_base(unsigned long, std::allocator<UsmaanSahak::Matrix<double> > const&) [83]
+                0.00    0.00       1/1           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::_Vector_impl(std::allocator<UsmaanSahak::Matrix<double> > const&) [81]
+                0.00    0.00       1/1           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_create_storage(unsigned long) [82]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector() [88]
+[84]     0.0    0.00    0.00       1         std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_base() [84]
+                0.00    0.00       1/1           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::_Vector_impl() [80]
+-----------------------------------------------
+                0.00    0.00       1/1           __gnu_cxx::__alloc_traits<std::allocator<UsmaanSahak::Matrix<double> > >::_S_select_on_copy(std::allocator<UsmaanSahak::Matrix<double> > const&) [75]
+[85]     0.0    0.00    0.00       1         std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::select_on_container_copy_construction(std::allocator<UsmaanSahak::Matrix<double> > const&) [85]
+                0.00    0.00       1/2           std::allocator<UsmaanSahak::Matrix<double> >::allocator(std::allocator<UsmaanSahak::Matrix<double> > const&) [62]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::Matrix<double>* std::uninitialized_copy<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*>(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*) [89]
+[86]     0.0    0.00    0.00       1         UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*>(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*) [86]
+                0.00    0.00       1/1           bool __gnu_cxx::operator!=<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > > const&, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > > const&) [76]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::MatrixOperator<double>::MatrixOperator(UsmaanSahak::MatrixOperator<double> const&) [70]
+[87]     0.0    0.00    0.00       1         std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&) [87]
+                0.00    0.00       1/7           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_get_Tp_allocator() const [21]
+                0.00    0.00       1/1           __gnu_cxx::__alloc_traits<std::allocator<UsmaanSahak::Matrix<double> > >::_S_select_on_copy(std::allocator<UsmaanSahak::Matrix<double> > const&) [75]
+                0.00    0.00       1/21          std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::size() const [15]
+                0.00    0.00       1/3           std::allocator<UsmaanSahak::Matrix<double> >::~allocator() [42]
+                0.00    0.00       1/1           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_base(unsigned long, std::allocator<UsmaanSahak::Matrix<double> > const&) [83]
+                0.00    0.00       1/9           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_get_Tp_allocator() [18]
+                0.00    0.00       1/1           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::end() const [77]
+                0.00    0.00       1/1           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::begin() const [78]
+                0.00    0.00       1/1           UsmaanSahak::Matrix<double>* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [90]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::MatrixOperator<double>::MatrixOperator(int, char**) [71]
+[88]     0.0    0.00    0.00       1         std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector() [88]
+                0.00    0.00       1/1           std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_base() [84]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::Matrix<double>* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [90]
+[89]     0.0    0.00    0.00       1         UsmaanSahak::Matrix<double>* std::uninitialized_copy<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*>(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*) [89]
+                0.00    0.00       1/1           UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*>(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*) [86]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&) [87]
+[90]     0.0    0.00    0.00       1         UsmaanSahak::Matrix<double>* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&) [90]
+                0.00    0.00       1/1           UsmaanSahak::Matrix<double>* std::uninitialized_copy<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*>(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*) [89]
+-----------------------------------------------
+                0.00    0.00       1/1           bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [2]
+[91]     0.0    0.00    0.00       1         std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [91]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [66] _GLOBAL__sub_I__ZN11UsmaanSahak20OperationBatchTesterC2EiPPc [17] __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::max_size() const [45] std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::allocate(std::allocator<UsmaanSahak::Matrix<double> >&, unsigned long)
+  [67] _GLOBAL__sub_I_main    [61] __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >::base() const [24] std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::max_size(std::allocator<UsmaanSahak::Matrix<double> > const&)
+  [68] __static_initialization_and_destruction_0(int, int) [21] std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_get_Tp_allocator() const [46] void std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> const&>(std::allocator<UsmaanSahak::Matrix<double> >&, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> const&)
+  [69] __static_initialization_and_destruction_0(int, int) [16] std::move_iterator<UsmaanSahak::Matrix<double>*>::base() const [86] UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*>(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*)
+   [4] UsmaanSahak::MatrixOperator<double>::multiply(UsmaanSahak::Matrix<double>&, UsmaanSahak::Matrix<double>&) [40] std::move_iterator<UsmaanSahak::Matrix<double>*>::operator*() const [47] UsmaanSahak::Matrix<double>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*)
+  [70] UsmaanSahak::MatrixOperator<double>::MatrixOperator(UsmaanSahak::MatrixOperator<double> const&) [41] std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_check_len(unsigned long, char const*) const [48] void std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_emplace_back_aux<UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double> const&)
+  [71] UsmaanSahak::MatrixOperator<double>::MatrixOperator(int, char**) [77] std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::end() const [49] std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::push_back(UsmaanSahak::Matrix<double> const&)
+  [57] UsmaanSahak::MatrixOperator<double>::~MatrixOperator() [15] std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::size() const [87] std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector(std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > const&)
+   [2] bool UsmaanSahak::OperationBatchTester::readMatrixSequence<double>(int, char**, UsmaanSahak::MatrixOperator<double>) [78] std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::begin() const [88] std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::vector()
+   [3] UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [22] std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::max_size() const [65] std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~vector()
+   [8] UsmaanSahak::Matrix<double>::addElement(double, int, int) [62] std::allocator<UsmaanSahak::Matrix<double> >::allocator(std::allocator<UsmaanSahak::Matrix<double> > const&) [19] std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::operator[](unsigned long)
+   [5] UsmaanSahak::Matrix<double>::getNumColumn() [79] std::allocator<UsmaanSahak::Matrix<double> >::allocator() [50] void std::_Construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>&&)
+  [72] UsmaanSahak::Matrix<double>::equals(UsmaanSahak::Matrix<double> const&) [42] std::allocator<UsmaanSahak::Matrix<double> >::~allocator() [51] UsmaanSahak::Matrix<double>* std::__addressof<UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>&)
+  [58] UsmaanSahak::Matrix<double>::getMat() [29] void std::_Destroy_aux<true>::__destroy<UsmaanSahak::Matrix<double>*>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*) [89] UsmaanSahak::Matrix<double>* std::uninitialized_copy<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*>(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*)
+  [34] UsmaanSahak::Matrix<double>::delMatrix() [33] std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_allocate(unsigned long) [52] UsmaanSahak::Matrix<double>* std::uninitialized_copy<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*)
+   [6] UsmaanSahak::Matrix<double>::getNumRow() [80] std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::_Vector_impl() [90] UsmaanSahak::Matrix<double>* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&)
+  [35] UsmaanSahak::Matrix<double>::Matrix(int, int) [81] std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::_Vector_impl(std::allocator<UsmaanSahak::Matrix<double> > const&) [53] UsmaanSahak::Matrix<double>* std::__uninitialized_copy_a<std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(std::move_iterator<UsmaanSahak::Matrix<double>*>, std::move_iterator<UsmaanSahak::Matrix<double>*>, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&)
+  [73] UsmaanSahak::Matrix<double>::Matrix(int, int, double**) [63] std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_impl::~_Vector_impl() [25] std::move_iterator<UsmaanSahak::Matrix<double>*> std::__make_move_if_noexcept_iterator<UsmaanSahak::Matrix<double>*, std::move_iterator<UsmaanSahak::Matrix<double>*> >(UsmaanSahak::Matrix<double>*)
+   [7] std::ostream& UsmaanSahak::operator<< <double>(std::ostream&, UsmaanSahak::Matrix<double>&) [30] std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_deallocate(UsmaanSahak::Matrix<double>*, unsigned long) [54] UsmaanSahak::Matrix<double>* std::__uninitialized_move_if_noexcept_a<UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> > >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&)
+  [36] __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::deallocate(UsmaanSahak::Matrix<double>*, unsigned long) [82] std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_create_storage(unsigned long) [55] unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  [37] __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::allocate(unsigned long, void const*) [18] std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_M_get_Tp_allocator() [56] UsmaanSahak::Matrix<double>&& std::forward<UsmaanSahak::Matrix<double> >(std::remove_reference<UsmaanSahak::Matrix<double> >::type&)
+  [38] void __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::construct<UsmaanSahak::Matrix<double>, UsmaanSahak::Matrix<double> const&>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> const&) [83] std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_base(unsigned long, std::allocator<UsmaanSahak::Matrix<double> > const&) [20] UsmaanSahak::Matrix<double> const& std::forward<UsmaanSahak::Matrix<double> const&>(std::remove_reference<UsmaanSahak::Matrix<double> const&>::type&)
+  [59] __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::new_allocator(__gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> > const&) [84] std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::_Vector_base() [31] void std::_Destroy<UsmaanSahak::Matrix<double>*>(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*)
+  [74] __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::new_allocator() [64] std::_Vector_base<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > >::~_Vector_base() [32] void std::_Destroy<UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double> >(UsmaanSahak::Matrix<double>*, UsmaanSahak::Matrix<double>*, std::allocator<UsmaanSahak::Matrix<double> >&)
+  [39] __gnu_cxx::new_allocator<UsmaanSahak::Matrix<double> >::~new_allocator() [23] std::move_iterator<UsmaanSahak::Matrix<double>*>::move_iterator(UsmaanSahak::Matrix<double>*) [26] bool std::operator==<UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*> const&, std::move_iterator<UsmaanSahak::Matrix<double>*> const&)
+  [75] __gnu_cxx::__alloc_traits<std::allocator<UsmaanSahak::Matrix<double> > >::_S_select_on_copy(std::allocator<UsmaanSahak::Matrix<double> > const&) [43] std::move_iterator<UsmaanSahak::Matrix<double>*>::operator++() [27] bool std::operator!=<UsmaanSahak::Matrix<double>*>(std::move_iterator<UsmaanSahak::Matrix<double>*> const&, std::move_iterator<UsmaanSahak::Matrix<double>*> const&)
+  [60] __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >::__normal_iterator(UsmaanSahak::Matrix<double> const* const&) [44] std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::deallocate(std::allocator<UsmaanSahak::Matrix<double> >&, UsmaanSahak::Matrix<double>*, unsigned long) [91] std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+  [76] bool __gnu_cxx::operator!=<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > >(__gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > > const&, __gnu_cxx::__normal_iterator<UsmaanSahak::Matrix<double> const*, std::vector<UsmaanSahak::Matrix<double>, std::allocator<UsmaanSahak::Matrix<double> > > > const&) [85] std::allocator_traits<std::allocator<UsmaanSahak::Matrix<double> > >::select_on_container_copy_construction(std::allocator<UsmaanSahak::Matrix<double> > const&) [28] operator new(unsigned long, void*)

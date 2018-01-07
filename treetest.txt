@@ -1,0 +1,21 @@
+
+Outputting binary tree:
+1 height: 6
+6 height: 9
+7 height: 8
+4 height: 7
+17 height: 8
+10 height: 7
+9 height: 6
+2 height: 5
+21 height: 6
+19 height: 5
+18 height: 4
+22 height: 3
+27 height: 2
+31 height: 2
+29 Height: 1
+Count: (delete later) 15
+Size: 15
+4.55795 theoretical max height vs the actual height, 9
+------------------------------

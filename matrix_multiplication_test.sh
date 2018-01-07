@@ -1,0 +1,8 @@
+./matrix_operation_batch_tester --matrix_input_fname small_matrix_file_int --results_output_fname results_small_matrix_file_int --matrix_data_type int32_t
+./matrix_operation_batch_tester --matrix_input_fname small_matrix_file_double --results_output_fname results_small_matrix_file_double --matrix_data_type float
+./matrix_operation_batch_tester --matrix_input_fname medium_matrix_file_int --results_output_fname results_medium_matrix_file_int --matrix_data_type int32_t
+./matrix_operation_batch_tester --matrix_input_fname medium_matrix_file_double --results_output_fname results_medium_matrix_file_double --matrix_data_type float
+./matrix_operation_batch_tester --matrix_input_fname large_matrix_file_int --results_output_fname results_small_matrix_file_int --matrix_data_type int32_t
+./matrix_operation_batch_tester --matrix_input_fname large_matrix_file_double --results_output_fname results_small_matrix_file_double --matrix_data_type float
+./matrix_operation_batch_tester --matrix_input_fname extra_large_matrix_file_long_int --results_output_fname results_extra_large_matrix_file_long_int --matrix_data_type int64_t
+./matrix_operation_batch_tester --matrix_input_fname extra_large_matrix_file_double --results_output_fname results_extra_large_matrix_file_double --matrix_data_type float

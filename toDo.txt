@@ -1,0 +1,112 @@
+Kruskal Algorithm
+1 - Order the weights of the edges
+
+2 - Iterate through edges, check if points are same set. If not, connect. If so, then keep going.
+
+3 - You should now have the edges of a minimum spanning tree from a graph. It connects all vertices at minimum weight.
+
+
+
+Edge {
+ char vertex1;
+ char vertex2;
+ int weight;
+}
+
+Graph {
+ vector<char> vertices;
+ vector<Edge> edges;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10/19/17
+more than 500 entries make work.
+Also notice that even though in temptext.txt it says there should be a final of 16, it has 13.
+
+
+
+
+#end
+
+
+
+
+
+
+
+
+
+
+
+Assignment 2
+
+1 - Read new files, and process.
+2 - Make binary tree
+3 - Make AVL tree
+
+read write repeat
+random operations, random key
+measure the amortized cost per operation and maximum hieght of tree.
+tells us worst case workup. How efificent was for that data set.
+
+
+Phase 1
+Get naive binary tree. desend down tree, wrherever item is put it there, never rebalance tree. Make new node with pointer to left or right child. With read, look for it. write then check to see if already there and then fail. Otherwise, insert. Data type is not a problem this tiem, no templates. Just 64 bit signed integer. Focus is performance of tree.
+
+Phase 2
+Once you get naive binary tree to work, get AVL tree to work. 
+Once you get to work, compare perfomrance max height amortized cost overall cost of all operations.
+
+Phase 3
+Once yo ucan cmopare, serialize binary tree. Serial means one line of things. May comunicate using files or socket connection, which is conceputally just like opening files in terms of commands. Convert object to a string of bytes, whether they go to files or socket. Question is how to do effiicently without losing information.
+A naive way we will do, that lets us use matrix. (Learning opertunity.) Add two additonal operations load matrix and dsave matrix. Load matrix loads matirx and makes binary search tree out of it. Store matrix takes binary search treee and makes matrix out of it.
+
+
+1 - Parse a matrix file, write a matrix file.
+give file name, gives back instantiated matrix. Different formats, reuse code.
+
+2 - in common repositor, containts deleteions, witout deletions are operation sequence. 
+num operations,max key value,how big cache meganism is,what ish greatest amount of load.
+
+MAX_KEY = max value of the key
+CAPACITY = How much it could hold
+MAX_LOAD = How much we have, can never be larger than CAPACITY
+NUM_OPERATIONS = number of operations, including deletions
+ignore HAS_INDEXES, not relevant for our use.
+
+
+
+
+Note: Do I even need argv, argc as arguments for the readMatrixSequence function?
+Note: t.sh is a temporary test shell script for testing the operation function.

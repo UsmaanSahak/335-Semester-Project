@@ -1,0 +1,769 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00    17754     0.00     0.00  UsmaanSahak::node::getLeft()
+  0.00      0.00     0.00    17677     0.00     0.00  UsmaanSahak::node::getValue()
+  0.00      0.00     0.00    16140     0.00     0.00  UsmaanSahak::node::getRight()
+  0.00      0.00     0.00     1199     0.00     0.00  UsmaanSahak::binaryTree::getRoot()
+  0.00      0.00     0.00     1199     0.00     0.00  UsmaanSahak::AVLTree::getRoot()
+  0.00      0.00     0.00      815     0.00     0.00  UsmaanSahak::node::setLeft(UsmaanSahak::node*)
+  0.00      0.00     0.00      727     0.00     0.00  UsmaanSahak::node::setRight(UsmaanSahak::node*)
+  0.00      0.00     0.00      419     0.00     0.00  UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00      378     0.00     0.00  UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00      347     0.00     0.00  UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00      337     0.00     0.00  UsmaanSahak::binaryTree::deleteTree(long)
+  0.00      0.00     0.00      337     0.00     0.00  UsmaanSahak::AVLTree::deleteTree(long)
+  0.00      0.00     0.00      335     0.00     0.00  UsmaanSahak::binaryTree::writeTree(long)
+  0.00      0.00     0.00      335     0.00     0.00  UsmaanSahak::AVLTree::writeTree(long)
+  0.00      0.00     0.00      333     0.00     0.00  UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*)
+  0.00      0.00     0.00      328     0.00     0.00  UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*)
+  0.00      0.00     0.00      328     0.00     0.00  UsmaanSahak::binaryTree::readTree(long)
+  0.00      0.00     0.00      328     0.00     0.00  UsmaanSahak::node::node(long)
+  0.00      0.00     0.00      328     0.00     0.00  UsmaanSahak::AVLTree::readTree(long)
+  0.00      0.00     0.00      327     0.00     0.00  UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00      319     0.00     0.00  UsmaanSahak::binaryTree::helperReadTree(long, UsmaanSahak::node*)
+  0.00      0.00     0.00      317     0.00     0.00  UsmaanSahak::AVLTree::helperReadTree(long, UsmaanSahak::node*)
+  0.00      0.00     0.00      302     0.00     0.00  UsmaanSahak::node::~node()
+  0.00      0.00     0.00      257     0.00     0.00  UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00      202     0.00     0.00  UsmaanSahak::AVLTree::lowerHeight(UsmaanSahak::node*)
+  0.00      0.00     0.00      164     0.00     0.00  UsmaanSahak::AVLTree::gsh()
+  0.00      0.00     0.00      164     0.00     0.00  UsmaanSahak::AVLTree::gshRoot(UsmaanSahak::node*)
+  0.00      0.00     0.00      130     0.00     0.00  UsmaanSahak::AVLTree::raiseHeight(UsmaanSahak::node*)
+  0.00      0.00     0.00       93     0.00     0.00  UsmaanSahak::binaryTree::lowerHeight(UsmaanSahak::node*)
+  0.00      0.00     0.00       60     0.00     0.00  UsmaanSahak::AVLTree::leftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00       56     0.00     0.00  UsmaanSahak::AVLTree::rightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00       42     0.00     0.00  UsmaanSahak::node::setValue(long)
+  0.00      0.00     0.00       25     0.00     0.00  UsmaanSahak::AVLTree::leftRightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00       10     0.00     0.00  UsmaanSahak::AVLTree::rightLeftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00       10     0.00     0.00  UsmaanSahak::AVLTree::rightRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00        6     0.00     0.00  UsmaanSahak::AVLTree::rightLeftRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00        4     0.00     0.00  UsmaanSahak::AVLTree::leftRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00        2     0.00     0.00  UsmaanSahak::mHash::mHash()
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I_GTree
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN11UsmaanSahak10binaryTree11raiseHeightEPNS_4nodeE
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN11UsmaanSahak5mHashC2Ev
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN11UsmaanSahak7AVLTree16leftRotationRootEPNS_4nodeES2_S2_
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  UsmaanSahak::binaryTree::setCapacity(int)
+  0.00      0.00     0.00        1     0.00     0.00  UsmaanSahak::binaryTree::setRoot(UsmaanSahak::node*)
+  0.00      0.00     0.00        1     0.00     0.00  UsmaanSahak::binaryTree::binaryTree()
+  0.00      0.00     0.00        1     0.00     0.00  UsmaanSahak::OperationBatchTester::readOperationSequence()
+  0.00      0.00     0.00        1     0.00     0.00  UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**)
+  0.00      0.00     0.00        1     0.00     0.00  UsmaanSahak::AVLTree::setCapacity(int)
+  0.00      0.00     0.00        1     0.00     0.00  UsmaanSahak::AVLTree::leftRightRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*)
+  0.00      0.00     0.00        1     0.00     0.00  UsmaanSahak::AVLTree::setRoot(UsmaanSahak::node*)
+  0.00      0.00     0.00        1     0.00     0.00  UsmaanSahak::AVLTree::AVLTree()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::~new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::~allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::map<unsigned long, unsigned long, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::map()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::_M_initialize()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::_Rb_tree_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::~_Rb_tree_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_M_begin()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> >*)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::~_Rb_tree()
+  0.00      0.00     0.00        1     0.00     0.00  std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+  0.00      0.00     0.00        1     0.00     0.00  read_operation_sequence
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+[1]      0.0    0.00    0.00     255+491     <cycle 1 as a whole> [1]
+                0.00    0.00     327+123         UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [31]
+                0.00    0.00     419             UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [19]
+-----------------------------------------------
+[2]      0.0    0.00    0.00     257+347     <cycle 2 as a whole> [2]
+                0.00    0.00     347             UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [21]
+                0.00    0.00     257+82          UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [64]
+[3]      0.0    0.00    0.00       1         read_operation_sequence [3]
+-----------------------------------------------
+                0.00    0.00       4/17754       UsmaanSahak::AVLTree::leftRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [48]
+                0.00    0.00       6/17754       UsmaanSahak::AVLTree::rightLeftRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [47]
+                0.00    0.00      25/17754       UsmaanSahak::AVLTree::leftRightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [44]
+                0.00    0.00      60/17754       UsmaanSahak::AVLTree::leftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [41]
+                0.00    0.00     232/17754       UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+                0.00    0.00     248/17754       UsmaanSahak::binaryTree::lowerHeight(UsmaanSahak::node*) [40]
+                0.00    0.00     257/17754       UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [21]
+                0.00    0.00     267/17754       UsmaanSahak::AVLTree::writeTree(long) [25]
+                0.00    0.00     325/17754       UsmaanSahak::AVLTree::readTree(long) [30]
+                0.00    0.00     341/17754       UsmaanSahak::AVLTree::raiseHeight(UsmaanSahak::node*) [39]
+                0.00    0.00     377/17754       UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [31]
+                0.00    0.00     413/17754       UsmaanSahak::binaryTree::writeTree(long) [24]
+                0.00    0.00     446/17754       UsmaanSahak::AVLTree::gshRoot(UsmaanSahak::node*) [38]
+                0.00    0.00     458/17754       UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [19]
+                0.00    0.00     517/17754       UsmaanSahak::binaryTree::readTree(long) [28]
+                0.00    0.00     560/17754       UsmaanSahak::AVLTree::lowerHeight(UsmaanSahak::node*) [36]
+                0.00    0.00     669/17754       UsmaanSahak::AVLTree::deleteTree(long) [23]
+                0.00    0.00     854/17754       UsmaanSahak::AVLTree::helperReadTree(long, UsmaanSahak::node*) [33]
+                0.00    0.00    1040/17754       UsmaanSahak::binaryTree::deleteTree(long) [22]
+                0.00    0.00    1427/17754       UsmaanSahak::binaryTree::helperReadTree(long, UsmaanSahak::node*) [32]
+                0.00    0.00    2159/17754       UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [26]
+                0.00    0.00    2605/17754       UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [27]
+                0.00    0.00    4464/17754       UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*) [20]
+[12]     0.0    0.00    0.00   17754         UsmaanSahak::node::getLeft() [12]
+-----------------------------------------------
+                0.00    0.00     335/17677       UsmaanSahak::binaryTree::writeTree(long) [24]
+                0.00    0.00     397/17677       UsmaanSahak::binaryTree::readTree(long) [28]
+                0.00    0.00     408/17677       UsmaanSahak::AVLTree::writeTree(long) [25]
+                0.00    0.00     493/17677       UsmaanSahak::AVLTree::readTree(long) [30]
+                0.00    0.00     528/17677       UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [21]
+                0.00    0.00     538/17677       UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+                0.00    0.00     700/17677       UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [19]
+                0.00    0.00     715/17677       UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [31]
+                0.00    0.00    1124/17677       UsmaanSahak::AVLTree::deleteTree(long) [23]
+                0.00    0.00    1153/17677       UsmaanSahak::binaryTree::deleteTree(long) [22]
+                0.00    0.00    1704/17677       UsmaanSahak::AVLTree::helperReadTree(long, UsmaanSahak::node*) [33]
+                0.00    0.00    2226/17677       UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [26]
+                0.00    0.00    2353/17677       UsmaanSahak::binaryTree::helperReadTree(long, UsmaanSahak::node*) [32]
+                0.00    0.00    2464/17677       UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*) [20]
+                0.00    0.00    2539/17677       UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [27]
+[13]     0.0    0.00    0.00   17677         UsmaanSahak::node::getValue() [13]
+-----------------------------------------------
+                0.00    0.00      10/16140       UsmaanSahak::AVLTree::rightRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [46]
+                0.00    0.00      10/16140       UsmaanSahak::AVLTree::rightLeftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [45]
+                0.00    0.00      56/16140       UsmaanSahak::AVLTree::rightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [42]
+                0.00    0.00      99/16140       UsmaanSahak::binaryTree::writeTree(long) [24]
+                0.00    0.00     123/16140       UsmaanSahak::binaryTree::readTree(long) [28]
+                0.00    0.00     222/16140       UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+                0.00    0.00     246/16140       UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [19]
+                0.00    0.00     247/16140       UsmaanSahak::binaryTree::lowerHeight(UsmaanSahak::node*) [40]
+                0.00    0.00     249/16140       UsmaanSahak::AVLTree::writeTree(long) [25]
+                0.00    0.00     267/16140       UsmaanSahak::AVLTree::gshRoot(UsmaanSahak::node*) [38]
+                0.00    0.00     308/16140       UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [31]
+                0.00    0.00     308/16140       UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [21]
+                0.00    0.00     311/16140       UsmaanSahak::AVLTree::readTree(long) [30]
+                0.00    0.00     348/16140       UsmaanSahak::AVLTree::raiseHeight(UsmaanSahak::node*) [39]
+                0.00    0.00     469/16140       UsmaanSahak::AVLTree::deleteTree(long) [23]
+                0.00    0.00     508/16140       UsmaanSahak::binaryTree::deleteTree(long) [22]
+                0.00    0.00     570/16140       UsmaanSahak::AVLTree::lowerHeight(UsmaanSahak::node*) [36]
+                0.00    0.00     885/16140       UsmaanSahak::AVLTree::helperReadTree(long, UsmaanSahak::node*) [33]
+                0.00    0.00    1007/16140       UsmaanSahak::binaryTree::helperReadTree(long, UsmaanSahak::node*) [32]
+                0.00    0.00    1838/16140       UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [27]
+                0.00    0.00    2131/16140       UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [26]
+                0.00    0.00    5928/16140       UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*) [20]
+[14]     0.0    0.00    0.00   16140         UsmaanSahak::node::getRight() [14]
+-----------------------------------------------
+                0.00    0.00     543/1199        UsmaanSahak::binaryTree::writeTree(long) [24]
+                0.00    0.00     656/1199        UsmaanSahak::binaryTree::readTree(long) [28]
+[15]     0.0    0.00    0.00    1199         UsmaanSahak::binaryTree::getRoot() [15]
+-----------------------------------------------
+                0.00    0.00     543/1199        UsmaanSahak::AVLTree::writeTree(long) [25]
+                0.00    0.00     656/1199        UsmaanSahak::AVLTree::readTree(long) [30]
+[16]     0.0    0.00    0.00    1199         UsmaanSahak::AVLTree::getRoot() [16]
+-----------------------------------------------
+                0.00    0.00       1/815         UsmaanSahak::binaryTree::writeTree(long) [24]
+                0.00    0.00       1/815         UsmaanSahak::AVLTree::writeTree(long) [25]
+                0.00    0.00       8/815         UsmaanSahak::binaryTree::deleteTree(long) [22]
+                0.00    0.00       8/815         UsmaanSahak::AVLTree::leftRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [48]
+                0.00    0.00      20/815         UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [19]
+                0.00    0.00      20/815         UsmaanSahak::AVLTree::rightRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [46]
+                0.00    0.00      27/815         UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [21]
+                0.00    0.00      49/815         UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [31]
+                0.00    0.00      52/815         UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+                0.00    0.00     130/815         UsmaanSahak::AVLTree::rightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [42]
+                0.00    0.00     152/815         UsmaanSahak::AVLTree::leftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [41]
+                0.00    0.00     173/815         UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [27]
+                0.00    0.00     174/815         UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [26]
+[17]     0.0    0.00    0.00     815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+-----------------------------------------------
+                0.00    0.00       1/727         UsmaanSahak::binaryTree::writeTree(long) [24]
+                0.00    0.00       1/727         UsmaanSahak::AVLTree::writeTree(long) [25]
+                0.00    0.00       3/727         UsmaanSahak::binaryTree::deleteTree(long) [22]
+                0.00    0.00       8/727         UsmaanSahak::AVLTree::leftRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [48]
+                0.00    0.00      20/727         UsmaanSahak::AVLTree::rightRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [46]
+                0.00    0.00      24/727         UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [21]
+                0.00    0.00      30/727         UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [19]
+                0.00    0.00      58/727         UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+                0.00    0.00      62/727         UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [31]
+                0.00    0.00     106/727         UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [26]
+                0.00    0.00     116/727         UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [27]
+                0.00    0.00     148/727         UsmaanSahak::AVLTree::leftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [41]
+                0.00    0.00     150/727         UsmaanSahak::AVLTree::rightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [42]
+[18]     0.0    0.00    0.00     727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+-----------------------------------------------
+                                 164             UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [31]
+                0.00    0.00     255/255         UsmaanSahak::binaryTree::writeTree(long) [24]
+[19]     0.0    0.00    0.00     419         UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [19]
+                0.00    0.00     700/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00     458/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00     246/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00      50/328         UsmaanSahak::node::node(long) [29]
+                0.00    0.00      30/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+                0.00    0.00      20/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                                 327             UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [31]
+-----------------------------------------------
+                                2814             UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*) [20]
+                0.00    0.00     378/378         UsmaanSahak::AVLTree::gshRoot(UsmaanSahak::node*) [38]
+[20]     0.0    0.00    0.00     378+2814    UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*) [20]
+                0.00    0.00    5928/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00    4464/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00    2464/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00      25/25          UsmaanSahak::AVLTree::leftRightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [44]
+                0.00    0.00      20/56          UsmaanSahak::AVLTree::rightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [42]
+                0.00    0.00      19/60          UsmaanSahak::AVLTree::leftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [41]
+                0.00    0.00      10/10          UsmaanSahak::AVLTree::rightLeftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [45]
+                                2814             UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*) [20]
+-----------------------------------------------
+                                  90             UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+                0.00    0.00     257/257         UsmaanSahak::AVLTree::writeTree(long) [25]
+[21]     0.0    0.00    0.00     347         UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [21]
+                0.00    0.00     528/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00     308/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00     257/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00      51/328         UsmaanSahak::node::node(long) [29]
+                0.00    0.00      51/164         UsmaanSahak::AVLTree::gsh() [37]
+                0.00    0.00      27/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                0.00    0.00      24/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+                                 257             UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+-----------------------------------------------
+                0.00    0.00     337/337         UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [64]
+[22]     0.0    0.00    0.00     337         UsmaanSahak::binaryTree::deleteTree(long) [22]
+                0.00    0.00    1153/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00    1040/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00     508/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00     328/328         UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [27]
+                0.00    0.00       8/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                0.00    0.00       5/302         UsmaanSahak::node::~node() [34]
+                0.00    0.00       5/93          UsmaanSahak::binaryTree::lowerHeight(UsmaanSahak::node*) [40]
+                0.00    0.00       4/42          UsmaanSahak::node::setValue(long) [43]
+                0.00    0.00       3/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+-----------------------------------------------
+                0.00    0.00     337/337         UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [64]
+[23]     0.0    0.00    0.00     337         UsmaanSahak::AVLTree::deleteTree(long) [23]
+                0.00    0.00    1124/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00     669/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00     469/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00     333/333         UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [26]
+                0.00    0.00      11/42          UsmaanSahak::node::setValue(long) [43]
+-----------------------------------------------
+                0.00    0.00     335/335         UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [64]
+[24]     0.0    0.00    0.00     335         UsmaanSahak::binaryTree::writeTree(long) [24]
+                0.00    0.00     543/1199        UsmaanSahak::binaryTree::getRoot() [15]
+                0.00    0.00     413/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00     335/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00     255/255         UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [19]
+                0.00    0.00      99/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00       3/328         UsmaanSahak::node::node(long) [29]
+                0.00    0.00       1/1           UsmaanSahak::binaryTree::setRoot(UsmaanSahak::node*) [61]
+                0.00    0.00       1/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                0.00    0.00       1/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+-----------------------------------------------
+                0.00    0.00     335/335         UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [64]
+[25]     0.0    0.00    0.00     335         UsmaanSahak::AVLTree::writeTree(long) [25]
+                0.00    0.00     543/1199        UsmaanSahak::AVLTree::getRoot() [16]
+                0.00    0.00     408/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00     267/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00     257/257         UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [21]
+                0.00    0.00     249/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00       3/328         UsmaanSahak::node::node(long) [29]
+                0.00    0.00       3/164         UsmaanSahak::AVLTree::gsh() [37]
+                0.00    0.00       1/1           UsmaanSahak::AVLTree::setRoot(UsmaanSahak::node*) [67]
+                0.00    0.00       1/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                0.00    0.00       1/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+-----------------------------------------------
+                                 645             UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [26]
+                0.00    0.00     333/333         UsmaanSahak::AVLTree::deleteTree(long) [23]
+[26]     0.0    0.00    0.00     333+645     UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [26]
+                0.00    0.00    2226/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00    2159/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00    2131/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00     174/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                0.00    0.00     150/302         UsmaanSahak::node::~node() [34]
+                0.00    0.00     106/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+                0.00    0.00      72/202         UsmaanSahak::AVLTree::lowerHeight(UsmaanSahak::node*) [36]
+                0.00    0.00      19/42          UsmaanSahak::node::setValue(long) [43]
+                                 645             UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [26]
+-----------------------------------------------
+                                 738             UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [27]
+                0.00    0.00     328/328         UsmaanSahak::binaryTree::deleteTree(long) [22]
+[27]     0.0    0.00    0.00     328+738     UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [27]
+                0.00    0.00    2605/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00    2539/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00    1838/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00     173/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                0.00    0.00     145/302         UsmaanSahak::node::~node() [34]
+                0.00    0.00     116/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+                0.00    0.00      88/93          UsmaanSahak::binaryTree::lowerHeight(UsmaanSahak::node*) [40]
+                0.00    0.00       8/42          UsmaanSahak::node::setValue(long) [43]
+                                 738             UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [27]
+-----------------------------------------------
+                0.00    0.00     328/328         UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [64]
+[28]     0.0    0.00    0.00     328         UsmaanSahak::binaryTree::readTree(long) [28]
+                0.00    0.00     656/1199        UsmaanSahak::binaryTree::getRoot() [15]
+                0.00    0.00     517/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00     397/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00     319/319         UsmaanSahak::binaryTree::helperReadTree(long, UsmaanSahak::node*) [32]
+                0.00    0.00     123/16140       UsmaanSahak::node::getRight() [14]
+-----------------------------------------------
+                0.00    0.00       3/328         UsmaanSahak::binaryTree::writeTree(long) [24]
+                0.00    0.00       3/328         UsmaanSahak::AVLTree::writeTree(long) [25]
+                0.00    0.00      50/328         UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [19]
+                0.00    0.00      51/328         UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [21]
+                0.00    0.00     110/328         UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+                0.00    0.00     111/328         UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [31]
+[29]     0.0    0.00    0.00     328         UsmaanSahak::node::node(long) [29]
+-----------------------------------------------
+                0.00    0.00     328/328         UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [64]
+[30]     0.0    0.00    0.00     328         UsmaanSahak::AVLTree::readTree(long) [30]
+                0.00    0.00     656/1199        UsmaanSahak::AVLTree::getRoot() [16]
+                0.00    0.00     493/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00     325/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00     317/317         UsmaanSahak::AVLTree::helperReadTree(long, UsmaanSahak::node*) [33]
+                0.00    0.00     311/16140       UsmaanSahak::node::getRight() [14]
+-----------------------------------------------
+                                 123             UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [31]
+                                 327             UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [19]
+[31]     0.0    0.00    0.00     327+123     UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [31]
+                0.00    0.00     715/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00     377/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00     308/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00     111/328         UsmaanSahak::node::node(long) [29]
+                0.00    0.00      62/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+                0.00    0.00      49/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                                 164             UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [19]
+                                 123             UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 1> [31]
+-----------------------------------------------
+                                 675             UsmaanSahak::binaryTree::helperReadTree(long, UsmaanSahak::node*) [32]
+                0.00    0.00     319/319         UsmaanSahak::binaryTree::readTree(long) [28]
+[32]     0.0    0.00    0.00     319+675     UsmaanSahak::binaryTree::helperReadTree(long, UsmaanSahak::node*) [32]
+                0.00    0.00    2353/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00    1427/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00    1007/16140       UsmaanSahak::node::getRight() [14]
+                                 675             UsmaanSahak::binaryTree::helperReadTree(long, UsmaanSahak::node*) [32]
+-----------------------------------------------
+                                 444             UsmaanSahak::AVLTree::helperReadTree(long, UsmaanSahak::node*) [33]
+                0.00    0.00     317/317         UsmaanSahak::AVLTree::readTree(long) [30]
+[33]     0.0    0.00    0.00     317+444     UsmaanSahak::AVLTree::helperReadTree(long, UsmaanSahak::node*) [33]
+                0.00    0.00    1704/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00     885/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00     854/17754       UsmaanSahak::node::getLeft() [12]
+                                 444             UsmaanSahak::AVLTree::helperReadTree(long, UsmaanSahak::node*) [33]
+-----------------------------------------------
+                                  26             UsmaanSahak::node::~node() [34]
+                0.00    0.00       1/302         UsmaanSahak::binaryTree::~binaryTree() [85]
+                0.00    0.00       1/302         UsmaanSahak::AVLTree::~AVLTree() [163]
+                0.00    0.00       5/302         UsmaanSahak::binaryTree::deleteTree(long) [22]
+                0.00    0.00     145/302         UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [27]
+                0.00    0.00     150/302         UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [26]
+[34]     0.0    0.00    0.00     302+26      UsmaanSahak::node::~node() [34]
+                                  26             UsmaanSahak::node::~node() [34]
+-----------------------------------------------
+                                  82             UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+                                 257             UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [21]
+[35]     0.0    0.00    0.00     257+82      UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+                0.00    0.00     538/17677       UsmaanSahak::node::getValue() [13]
+                0.00    0.00     232/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00     222/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00     110/328         UsmaanSahak::node::node(long) [29]
+                0.00    0.00     110/164         UsmaanSahak::AVLTree::gsh() [37]
+                0.00    0.00      58/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+                0.00    0.00      52/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                                  90             UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [21]
+                                  82             UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+-----------------------------------------------
+                                 242             UsmaanSahak::AVLTree::lowerHeight(UsmaanSahak::node*) [36]
+                0.00    0.00       4/202         UsmaanSahak::AVLTree::leftRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [48]
+                0.00    0.00      10/202         UsmaanSahak::AVLTree::rightRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [46]
+                0.00    0.00      56/202         UsmaanSahak::AVLTree::rightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [42]
+                0.00    0.00      60/202         UsmaanSahak::AVLTree::leftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [41]
+                0.00    0.00      72/202         UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [26]
+[36]     0.0    0.00    0.00     202+242     UsmaanSahak::AVLTree::lowerHeight(UsmaanSahak::node*) [36]
+                0.00    0.00     570/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00     560/17754       UsmaanSahak::node::getLeft() [12]
+                                 242             UsmaanSahak::AVLTree::lowerHeight(UsmaanSahak::node*) [36]
+-----------------------------------------------
+                0.00    0.00       3/164         UsmaanSahak::AVLTree::writeTree(long) [25]
+                0.00    0.00      51/164         UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [21]
+                0.00    0.00     110/164         UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) <cycle 2> [35]
+[37]     0.0    0.00    0.00     164         UsmaanSahak::AVLTree::gsh() [37]
+                0.00    0.00     164/164         UsmaanSahak::AVLTree::gshRoot(UsmaanSahak::node*) [38]
+-----------------------------------------------
+                0.00    0.00     164/164         UsmaanSahak::AVLTree::gsh() [37]
+[38]     0.0    0.00    0.00     164         UsmaanSahak::AVLTree::gshRoot(UsmaanSahak::node*) [38]
+                0.00    0.00     446/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00     378/378         UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*) [20]
+                0.00    0.00     267/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00       6/6           UsmaanSahak::AVLTree::rightLeftRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [47]
+                0.00    0.00       4/10          UsmaanSahak::AVLTree::rightRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [46]
+                0.00    0.00       3/4           UsmaanSahak::AVLTree::leftRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [48]
+                0.00    0.00       1/1           UsmaanSahak::AVLTree::leftRightRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [66]
+-----------------------------------------------
+                                 143             UsmaanSahak::AVLTree::raiseHeight(UsmaanSahak::node*) [39]
+                0.00    0.00       4/130         UsmaanSahak::AVLTree::leftRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [48]
+                0.00    0.00      10/130         UsmaanSahak::AVLTree::rightRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [46]
+                0.00    0.00      56/130         UsmaanSahak::AVLTree::rightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [42]
+                0.00    0.00      60/130         UsmaanSahak::AVLTree::leftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [41]
+[39]     0.0    0.00    0.00     130+143     UsmaanSahak::AVLTree::raiseHeight(UsmaanSahak::node*) [39]
+                0.00    0.00     348/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00     341/17754       UsmaanSahak::node::getLeft() [12]
+                                 143             UsmaanSahak::AVLTree::raiseHeight(UsmaanSahak::node*) [39]
+-----------------------------------------------
+                                 103             UsmaanSahak::binaryTree::lowerHeight(UsmaanSahak::node*) [40]
+                0.00    0.00       5/93          UsmaanSahak::binaryTree::deleteTree(long) [22]
+                0.00    0.00      88/93          UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [27]
+[40]     0.0    0.00    0.00      93+103     UsmaanSahak::binaryTree::lowerHeight(UsmaanSahak::node*) [40]
+                0.00    0.00     248/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00     247/16140       UsmaanSahak::node::getRight() [14]
+                                 103             UsmaanSahak::binaryTree::lowerHeight(UsmaanSahak::node*) [40]
+-----------------------------------------------
+                0.00    0.00       6/60          UsmaanSahak::AVLTree::rightLeftRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [47]
+                0.00    0.00      10/60          UsmaanSahak::AVLTree::rightLeftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [45]
+                0.00    0.00      19/60          UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*) [20]
+                0.00    0.00      25/60          UsmaanSahak::AVLTree::leftRightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [44]
+[41]     0.0    0.00    0.00      60         UsmaanSahak::AVLTree::leftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [41]
+                0.00    0.00     152/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                0.00    0.00     148/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+                0.00    0.00      60/130         UsmaanSahak::AVLTree::raiseHeight(UsmaanSahak::node*) [39]
+                0.00    0.00      60/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00      60/202         UsmaanSahak::AVLTree::lowerHeight(UsmaanSahak::node*) [36]
+-----------------------------------------------
+                0.00    0.00       1/56          UsmaanSahak::AVLTree::leftRightRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [66]
+                0.00    0.00      10/56          UsmaanSahak::AVLTree::rightLeftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [45]
+                0.00    0.00      20/56          UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*) [20]
+                0.00    0.00      25/56          UsmaanSahak::AVLTree::leftRightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [44]
+[42]     0.0    0.00    0.00      56         UsmaanSahak::AVLTree::rightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [42]
+                0.00    0.00     150/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+                0.00    0.00     130/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                0.00    0.00      56/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00      56/130         UsmaanSahak::AVLTree::raiseHeight(UsmaanSahak::node*) [39]
+                0.00    0.00      56/202         UsmaanSahak::AVLTree::lowerHeight(UsmaanSahak::node*) [36]
+-----------------------------------------------
+                0.00    0.00       4/42          UsmaanSahak::binaryTree::deleteTree(long) [22]
+                0.00    0.00       8/42          UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [27]
+                0.00    0.00      11/42          UsmaanSahak::AVLTree::deleteTree(long) [23]
+                0.00    0.00      19/42          UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [26]
+[43]     0.0    0.00    0.00      42         UsmaanSahak::node::setValue(long) [43]
+-----------------------------------------------
+                0.00    0.00      25/25          UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*) [20]
+[44]     0.0    0.00    0.00      25         UsmaanSahak::AVLTree::leftRightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [44]
+                0.00    0.00      25/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00      25/56          UsmaanSahak::AVLTree::rightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [42]
+                0.00    0.00      25/60          UsmaanSahak::AVLTree::leftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [41]
+-----------------------------------------------
+                0.00    0.00      10/10          UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*) [20]
+[45]     0.0    0.00    0.00      10         UsmaanSahak::AVLTree::rightLeftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [45]
+                0.00    0.00      10/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00      10/60          UsmaanSahak::AVLTree::leftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [41]
+                0.00    0.00      10/56          UsmaanSahak::AVLTree::rightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [42]
+-----------------------------------------------
+                0.00    0.00       4/10          UsmaanSahak::AVLTree::gshRoot(UsmaanSahak::node*) [38]
+                0.00    0.00       6/10          UsmaanSahak::AVLTree::rightLeftRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [47]
+[46]     0.0    0.00    0.00      10         UsmaanSahak::AVLTree::rightRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [46]
+                0.00    0.00      20/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                0.00    0.00      20/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+                0.00    0.00      10/130         UsmaanSahak::AVLTree::raiseHeight(UsmaanSahak::node*) [39]
+                0.00    0.00      10/16140       UsmaanSahak::node::getRight() [14]
+                0.00    0.00      10/202         UsmaanSahak::AVLTree::lowerHeight(UsmaanSahak::node*) [36]
+-----------------------------------------------
+                0.00    0.00       6/6           UsmaanSahak::AVLTree::gshRoot(UsmaanSahak::node*) [38]
+[47]     0.0    0.00    0.00       6         UsmaanSahak::AVLTree::rightLeftRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [47]
+                0.00    0.00       6/60          UsmaanSahak::AVLTree::leftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [41]
+                0.00    0.00       6/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00       6/10          UsmaanSahak::AVLTree::rightRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [46]
+-----------------------------------------------
+                0.00    0.00       1/4           UsmaanSahak::AVLTree::leftRightRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [66]
+                0.00    0.00       3/4           UsmaanSahak::AVLTree::gshRoot(UsmaanSahak::node*) [38]
+[48]     0.0    0.00    0.00       4         UsmaanSahak::AVLTree::leftRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [48]
+                0.00    0.00       8/727         UsmaanSahak::node::setRight(UsmaanSahak::node*) [18]
+                0.00    0.00       8/815         UsmaanSahak::node::setLeft(UsmaanSahak::node*) [17]
+                0.00    0.00       4/17754       UsmaanSahak::node::getLeft() [12]
+                0.00    0.00       4/130         UsmaanSahak::AVLTree::raiseHeight(UsmaanSahak::node*) [39]
+                0.00    0.00       4/202         UsmaanSahak::AVLTree::lowerHeight(UsmaanSahak::node*) [36]
+-----------------------------------------------
+                0.00    0.00       2/2           __static_initialization_and_destruction_0(int, int) [57]
+[49]     0.0    0.00    0.00       2         UsmaanSahak::mHash::mHash() [49]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [601]
+[50]     0.0    0.00    0.00       1         _GLOBAL__sub_I_GTree [50]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [57]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [601]
+[51]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN11UsmaanSahak10binaryTree11raiseHeightEPNS_4nodeE [51]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [58]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [601]
+[52]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN11UsmaanSahak5mHashC2Ev [52]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [56]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [601]
+[53]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN11UsmaanSahak7AVLTree16leftRotationRootEPNS_4nodeES2_S2_ [53]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [59]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [601]
+[54]     0.0    0.00    0.00       1         _GLOBAL__sub_I_main [54]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [55]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [54]
+[55]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [55]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN11UsmaanSahak5mHashC2Ev [52]
+[56]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [56]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_GTree [50]
+[57]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [57]
+                0.00    0.00       2/2           UsmaanSahak::mHash::mHash() [49]
+                0.00    0.00       1/1           UsmaanSahak::AVLTree::AVLTree() [68]
+                0.00    0.00       1/1           UsmaanSahak::binaryTree::binaryTree() [62]
+                0.00    0.00       1/1           std::map<unsigned long, unsigned long, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::map() [73]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN11UsmaanSahak10binaryTree11raiseHeightEPNS_4nodeE [51]
+[58]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [58]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN11UsmaanSahak7AVLTree16leftRotationRootEPNS_4nodeES2_S2_ [53]
+[59]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [59]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [64]
+[60]     0.0    0.00    0.00       1         UsmaanSahak::binaryTree::setCapacity(int) [60]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::binaryTree::writeTree(long) [24]
+[61]     0.0    0.00    0.00       1         UsmaanSahak::binaryTree::setRoot(UsmaanSahak::node*) [61]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [57]
+[62]     0.0    0.00    0.00       1         UsmaanSahak::binaryTree::binaryTree() [62]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [64]
+[63]     0.0    0.00    0.00       1         UsmaanSahak::OperationBatchTester::readOperationSequence() [63]
+-----------------------------------------------
+                0.00    0.00       1/1           main [10]
+[64]     0.0    0.00    0.00       1         UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [64]
+                0.00    0.00     337/337         UsmaanSahak::AVLTree::deleteTree(long) [23]
+                0.00    0.00     337/337         UsmaanSahak::binaryTree::deleteTree(long) [22]
+                0.00    0.00     335/335         UsmaanSahak::AVLTree::writeTree(long) [25]
+                0.00    0.00     335/335         UsmaanSahak::binaryTree::writeTree(long) [24]
+                0.00    0.00     328/328         UsmaanSahak::AVLTree::readTree(long) [30]
+                0.00    0.00     328/328         UsmaanSahak::binaryTree::readTree(long) [28]
+                0.00    0.00       1/1           read_operation_sequence [3]
+                0.00    0.00       1/1           UsmaanSahak::AVLTree::setCapacity(int) [65]
+                0.00    0.00       1/1           UsmaanSahak::binaryTree::setCapacity(int) [60]
+                0.00    0.00       1/1           std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [81]
+                0.00    0.00       1/1           UsmaanSahak::OperationBatchTester::readOperationSequence() [63]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [64]
+[65]     0.0    0.00    0.00       1         UsmaanSahak::AVLTree::setCapacity(int) [65]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::AVLTree::gshRoot(UsmaanSahak::node*) [38]
+[66]     0.0    0.00    0.00       1         UsmaanSahak::AVLTree::leftRightRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [66]
+                0.00    0.00       1/56          UsmaanSahak::AVLTree::rightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [42]
+                0.00    0.00       1/4           UsmaanSahak::AVLTree::leftRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [48]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::AVLTree::writeTree(long) [25]
+[67]     0.0    0.00    0.00       1         UsmaanSahak::AVLTree::setRoot(UsmaanSahak::node*) [67]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [57]
+[68]     0.0    0.00    0.00       1         UsmaanSahak::AVLTree::AVLTree() [68]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::allocator() [71]
+[69]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::new_allocator() [69]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::~allocator() [72]
+[70]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::~new_allocator() [70]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::_Rb_tree_impl() [75]
+[71]     0.0    0.00    0.00       1         std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::allocator() [71]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::new_allocator() [69]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::~_Rb_tree_impl() [76]
+[72]     0.0    0.00    0.00       1         std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::~allocator() [72]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::~new_allocator() [70]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [57]
+[73]     0.0    0.00    0.00       1         std::map<unsigned long, unsigned long, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::map() [73]
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree() [79]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::_Rb_tree_impl() [75]
+[74]     0.0    0.00    0.00       1         std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::_M_initialize() [74]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree() [79]
+[75]     0.0    0.00    0.00       1         std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::_Rb_tree_impl() [75]
+                0.00    0.00       1/1           std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::allocator() [71]
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::_M_initialize() [74]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::~_Rb_tree() [80]
+[76]     0.0    0.00    0.00       1         std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::~_Rb_tree_impl() [76]
+                0.00    0.00       1/1           std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::~allocator() [72]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::~_Rb_tree() [80]
+[77]     0.0    0.00    0.00       1         std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_M_begin() [77]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::~_Rb_tree() [80]
+[78]     0.0    0.00    0.00       1         std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> >*) [78]
+-----------------------------------------------
+                0.00    0.00       1/1           std::map<unsigned long, unsigned long, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::map() [73]
+[79]     0.0    0.00    0.00       1         std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree() [79]
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::_Rb_tree_impl() [75]
+-----------------------------------------------
+                0.00    0.00       1/1           std::map<unsigned long, unsigned long, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::~map() [441]
+[80]     0.0    0.00    0.00       1         std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::~_Rb_tree() [80]
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_M_begin() [77]
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::~_Rb_tree_impl() [76]
+                0.00    0.00       1/1           std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> >*) [78]
+-----------------------------------------------
+                0.00    0.00       1/1           UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [64]
+[81]     0.0    0.00    0.00       1         std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [81]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [50] _GLOBAL__sub_I_GTree   [17] UsmaanSahak::node::setLeft(UsmaanSahak::node*) [37] UsmaanSahak::AVLTree::gsh()
+  [51] _GLOBAL__sub_I__ZN11UsmaanSahak10binaryTree11raiseHeightEPNS_4nodeE [14] UsmaanSahak::node::getRight() [16] UsmaanSahak::AVLTree::getRoot()
+  [52] _GLOBAL__sub_I__ZN11UsmaanSahak5mHashC2Ev [13] UsmaanSahak::node::getValue() [38] UsmaanSahak::AVLTree::gshRoot(UsmaanSahak::node*)
+  [53] _GLOBAL__sub_I__ZN11UsmaanSahak7AVLTree16leftRotationRootEPNS_4nodeES2_S2_ [18] UsmaanSahak::node::setRight(UsmaanSahak::node*) [67] UsmaanSahak::AVLTree::setRoot(UsmaanSahak::node*)
+  [54] _GLOBAL__sub_I_main    [43] UsmaanSahak::node::setValue(long) [30] UsmaanSahak::AVLTree::readTree(long)
+  [55] __static_initialization_and_destruction_0(int, int) [29] UsmaanSahak::node::node(long) [25] UsmaanSahak::AVLTree::writeTree(long)
+  [56] __static_initialization_and_destruction_0(int, int) [34] UsmaanSahak::node::~node() [68] UsmaanSahak::AVLTree::AVLTree()
+  [57] __static_initialization_and_destruction_0(int, int) [49] UsmaanSahak::mHash::mHash() [69] __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::new_allocator()
+  [58] __static_initialization_and_destruction_0(int, int) [23] UsmaanSahak::AVLTree::deleteTree(long) [70] __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::~new_allocator()
+  [59] __static_initialization_and_destruction_0(int, int) [36] UsmaanSahak::AVLTree::lowerHeight(UsmaanSahak::node*) [71] std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::allocator()
+  [22] UsmaanSahak::binaryTree::deleteTree(long) [39] UsmaanSahak::AVLTree::raiseHeight(UsmaanSahak::node*) [72] std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> > >::~allocator()
+  [40] UsmaanSahak::binaryTree::lowerHeight(UsmaanSahak::node*) [65] UsmaanSahak::AVLTree::setCapacity(int) [73] std::map<unsigned long, unsigned long, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::map()
+  [60] UsmaanSahak::binaryTree::setCapacity(int) [41] UsmaanSahak::AVLTree::leftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [74] std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::_M_initialize()
+  [32] UsmaanSahak::binaryTree::helperReadTree(long, UsmaanSahak::node*) [42] UsmaanSahak::AVLTree::rightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [75] std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::_Rb_tree_impl()
+  [19] UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) [33] UsmaanSahak::AVLTree::helperReadTree(long, UsmaanSahak::node*) [76] std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree_impl<std::less<unsigned long>, true>::~_Rb_tree_impl()
+  [31] UsmaanSahak::binaryTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [21] UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*) [77] std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_M_begin()
+  [27] UsmaanSahak::binaryTree::helperDeleteTree(long, UsmaanSahak::node*) [35] UsmaanSahak::AVLTree::helperWriteTree(long, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [78] std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, unsigned long> >*)
+  [15] UsmaanSahak::binaryTree::getRoot() [26] UsmaanSahak::AVLTree::helperDeleteTree(long, UsmaanSahak::node*) [79] std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::_Rb_tree()
+  [61] UsmaanSahak::binaryTree::setRoot(UsmaanSahak::node*) [48] UsmaanSahak::AVLTree::leftRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [80] std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned long>, std::_Select1st<std::pair<unsigned long const, unsigned long> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > >::~_Rb_tree()
+  [28] UsmaanSahak::binaryTree::readTree(long) [44] UsmaanSahak::AVLTree::leftRightRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [81] std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+  [24] UsmaanSahak::binaryTree::writeTree(long) [45] UsmaanSahak::AVLTree::rightLeftRotation(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [3] read_operation_sequence
+  [62] UsmaanSahak::binaryTree::binaryTree() [46] UsmaanSahak::AVLTree::rightRotationRoot(UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [1] <cycle 1>
+  [63] UsmaanSahak::OperationBatchTester::readOperationSequence() [66] UsmaanSahak::AVLTree::leftRightRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*) [2] <cycle 2>
+  [64] UsmaanSahak::OperationBatchTester::OperationBatchTester(int, char**) [47] UsmaanSahak::AVLTree::rightLeftRotationRoot(int, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*, UsmaanSahak::node*)
+  [12] UsmaanSahak::node::getLeft() [20] UsmaanSahak::AVLTree::gsh(UsmaanSahak::node*, UsmaanSahak::node*)

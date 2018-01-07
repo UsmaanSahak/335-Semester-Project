@@ -1,0 +1,21 @@
+
+Outputting AVL tree:
+1 height: 5
+2 height: 4
+6 height: 5
+7 height: 4
+4 height: 3
+17 height: 4
+10 height: 3
+9 height: 2
+21 height: 5
+19 height: 4
+22 height: 3
+31 height: 4
+29 height: 3
+27 height: 2
+18 height: 1
+Size: 15
+The AVL tree's total height is 5
+4.55795 theoretical max height vs the actual height, 5
+------------------------------
